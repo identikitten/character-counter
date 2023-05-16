@@ -1,0 +1,57 @@
+
+  /* Assets */
+@font-face {
+    font-family: 'Bluu Next'; /* Replace 'CustomFont' with your desired font name */
+    src: url('/BluuNext-Titling.ttf') format('ttf');
+   
+  }
+  
+
+
+
+  /* Style */
+body{
+    color: red;
+}
+
+
+h3{
+    filter: drop-shadow(2px 4px 6px red);
+    font-family: Bluu Next;
+    font-size: 32px;
+}
+
+.result, marquee{
+    filter: drop-shadow(2px 4px 6px red);
+    font-family: Bluu Next;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+textarea{
+    box-sizing: border-box;
+    width: 600px;
+    height: 300px;
+    /* padding: 5px 20px; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: arial;
+    color: red;
+    border: red dotted 2px;
+    background-color: #ffc9e3;
+}
+
+
+@media only screen and (max-width: 768px) {
+    textarea{
+        width: 300px;
+    }
+  }
+
